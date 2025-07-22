@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: 'https://teegardenb.github.io/Product-list-with-cart/',
+  base: '/Product-list-with-cart/',
 })
