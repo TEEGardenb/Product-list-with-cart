@@ -1,0 +1,90 @@
+#root {
+  min-width: 375px;
+}
+
+.orange {
+  color: hsl(14, 86%, 42%);
+}
+
+.cart_btn {
+  border-radius: 2rem;
+}
+
+.btn_after {
+  background-color: hsl(14, 86%, 42%);
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inside_btn {
+  padding: 5px;
+  border-radius: 1rem;
+  width: 24px;
+  height: 24px;
+  background-color: hsl(14, 86%, 42%);
+  border-color: #fff;
+}
+
+.inside_btn:hover {
+  background-color: #fff;
+}
+
+.inside_close_btn {
+  padding: 3px;
+  border-radius: 1rem;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-color: #caafa7;
+  color: #caafa7;
+}
+
+.inside_close_btn:hover {
+  border-color: #111;
+  color: #111;
+}
+
+.orden_btn {
+  background-color: hsl(14, 86%, 42%);
+  color: #fff;
+  border-radius: 2rem;
+}
+
+.orden_btn:hover {
+  background-color: hsl(14, 84%, 33%);
+}
+
+.order_card {
+  background-color: #fff;
+}
+
+.carbon-neutral {
+  background-color: hsl(13, 31%, 94%);
+}
+
+.color-Rose {
+  color: hsl(12, 20%, 44%);
+}
+
+.color-Rose-900 {
+  color: hsl(14, 65%, 9%);
+}
+
+hr {
+  opacity: 15%;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.404);
+}
+
+.container_card_modal {
+  background-color: rgba(244, 237, 234, 0.4);
+}
+
+@media screen and (min-width: 1025px) {
+  aside {
+    display: none;
+  }
+}

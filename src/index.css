@@ -1,0 +1,82 @@
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Red Hat Text', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: hsl(14, 65%, 9%);
+  background-color: hsl(13, 31%, 94%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+aside {
+  position: sticky;
+  bottom: 0;
+  margin: auto;
+  padding: 16px;
+  display: flex;
+  justify-content: end;
+}
+
+aside > button {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: hsl(20, 50%, 98%);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: hsl(14, 86%, 42%);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto hsl(14, 86%, 42%);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: hsl(14, 65%, 9%);
+    background-color: hsl(13, 31%, 94%);
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
